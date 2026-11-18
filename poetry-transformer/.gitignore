@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+data/*.bin
+data/dataset_info.json
+checkpoints/
+*.tmp
+*.log
+
+# Keep the source data and compact vocabulary, but not generated binaries.
+!data/vocab.json
